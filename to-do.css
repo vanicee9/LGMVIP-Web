@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+h1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:chocolate;
+    text-decoration: underline;
+    text-align: center;
+}
+h2{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    color:darkgreen;
+    font-weight: 500;
+
+}
+body{
+    background-color:darkseagreen;
+    height:100vh;
+}
+.main{
+   border-radius:10px;
+   min-width:500px;
+   position: absolute;
+   width:50%;
+   transform:translate(-50%,-50%);
+   top:50%;
+   left:50%;
+   background:ghostwhite;
+   
+}
+
+
+#inside{
+    position: relative;
+    padding:28px 18px;
+    border-radius:5px;
+}
+#inside input{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height:45px;
+    padding:8px;
+    width:78%;
+    border:2px solid darkgreen;
+    color:black;
+    position:relative;
+    border-radius:4px;
+
+}
+#inside input:focus{
+    outline:none;
+   
+}
+#inside button{
+    position: relative;
+    float:right;
+    width:20%;
+    height:45px;
+    font-size: 15px;
+    border-radius:4px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:white;
+    border:2px solid darkgreen;
+    background-color:darkgreen;
+
+}
+.task{
+    background-color:rgba(143, 188, 143, 0.852);
+    display:flex;
+    height: 45px;
+    border:1px;
+    align-items: center;
+    margin-bottom:8px;
+    padding:5px 10px;
+    border-radius:5px;
+    justify-content: space-between;
+    
+   
+}
+#workkk{
+    position: relative;
+    width:100%;
+    margin-top:11px;
+    padding:28px 18px;
+    border-radius:10px;
+}
+.taskname span{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size:15px;
+    font-weight:400;
+}
+.task button{
+    background-color:darkgreen;
+    color:white;
+    height:100%;
+    width:40px;
+    border-radius:5px;
+    border:2px solid darkgreen;
+    cursor:pointer;
+    outline:none;
+    
+}
+.completed{
+    text-decoration: line-through;
+}
